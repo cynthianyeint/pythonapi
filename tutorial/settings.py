@@ -25,7 +25,7 @@ SECRET_KEY = 'iu34ybgctmms=ufm09$ym*h+17o&*1htb6is-tqc3#+o!6^(gt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'cynthia-apitesting.herokuapp.com']
 
 
 # Application definition
