@@ -89,11 +89,20 @@ DATABASES = {
     # }
     'default':{
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd18nagk2ds2qdb',
-        'USER': 'tftiawruckynry',
+        'NAME': 'cxa_data',
+        'USER': 'postgres',
+        'PASSWORD': 'admin',
         'HOST': 'ec2-54-235-153-124.compute-1.amazonaws.com',
         'PORT': '5432',
     }
+    # 'default':{
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'd18nagk2ds2qdb',
+    #     'USER': 'tftiawruckynry',
+    #     'PASSWORD': '',
+    #     'HOST': 'ec2-54-235-153-124.compute-1.amazonaws.com',
+    #     'PORT': '5432',
+    # }
 }
 
 
