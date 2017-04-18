@@ -87,13 +87,21 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
+    # 'default':{
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'd18nagk2ds2qdb',
+    #     'USER': 'tftiawruckynry',
+    #     'PASSWORD': '1224df59dad968365e63a4c82ef61ae9bab64e237614d49a6b7723342ab4fa4d',
+    #     'HOST': 'ec2-54-235-153-124.compute-1.amazonaws.com',
+    #     'PORT': '5432',
+    # }
     'default':{
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd18nagk2ds2qdb',
-        'USER': 'tftiawruckynry',
-        'PASSWORD': '1224df59dad968365e63a4c82ef61ae9bab64e237614d49a6b7723342ab4fa4d',
-        'HOST': 'ec2-54-235-153-124.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'NAME': 'cxa_data',
+        'USER': 'postgres',
+        'PASSWORD': 'admin',
+        'HOST': '',
+        'PORT': '',
     }
     # 'default':{
     #     'ENGINE': 'django.db.backends.postgresql',
